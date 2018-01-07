@@ -1,0 +1,123 @@
+// Colors:
+$light-blue: #0091DA 
+$teal: #00A3A1
+$purple: #6D2077
+$dark-blue: #005EB8
+$blue: #00338D
+$text-blue: #003397
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body
+    background-color: #fff
+    line-height: 16px
+    font-size: 14px
+    padding: 0
+    margin: 0
+    font-family: 'KPMG App', Arial, sans-serif
+    color: #333
+
+.wrapper
+    width: 100%
+    max-width: 776px
+    margin: 0 auto
+
+.row
+    width: 100%
+    margin-bottom: 16px
+    &:last-child
+        margin: 0
+
+.hero-text
+    padding: 0 96px
+    color: $text-blue
+    display: flex
+    text-align: center
+    justify-content: space-between
+    align-content: center
+    .topic
+        font-size: 56px
+        line-height: 56px
+        font-weight: 100
+        margin: 8px 0
+    .news, .date
+        margin: 0
+        font-size: 12px
+        line-height: 16px
+        color: #C9CCDA
+        font-family: arial
+        font-weight: 300
+
+    
+.article
+    display: block
+    position: relative
+    overflow: hidden
+    clip-path: border-box
+    width: 248px
+    height: 160px
+    color: #fff
+
+.meta
+    position: absolute
+    bottom: 16px
+    left: 16px
+    width: 180px
+    h2
+        font-family: 'KPMG App', arial
+        font-size: 32px
+        line-height: 32px
+        font-weight: 100
+        margin: 0
+        width: 160px
+    h3
+        font-family: Arial, sans-serif
+        font-size: 9px
+        font-weight: 200
+        line-height: 16px
+        margin: 0
+        width: 100%
+
+
+img
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    width: 100%
+    height: auto
+    opacity: .1
+
+a
+    text-decoration: none
+    color: #333
+    position: relative
+
+.hero
+    width: 380px
+    height: 240px
+    color: #fff
+    overflow: hidden
+    .meta
+        width: 216px
+        .title
+            font-size: 40px
+            line-height: 40px
+
+.one
+     background-color: $blue
+
+.two
+     background-color: $light-blue
+
+.left
+    background-color: $teal
+
+.center
+    background-color: $purple
+
+.right
+    background-color: $dark-blue
