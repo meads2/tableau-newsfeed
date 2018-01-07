@@ -1,5 +1,5 @@
 # Tableau Dashboard Newsfeed
-![Tableau Newsfeed]('../docs/img/README-header.png')
+![Tableau Newsfeed](docs/imgs/README-header.png?raw=true "Title")
 
 A Python web server for embedding custom newsfeed within a Tableau Dashboard that can be customized in several ways, including parameters in tableau.
 
