@@ -38,7 +38,7 @@ Once you have a sheet right click somewhere in the left hand parameters bar unti
 ![Tableau Newsfeed](docs/imgs/create-param.png?raw=true "Title")
 
 ## 3. Create A Dashboard
-Once you have your newly created sheet, go ahead and create a dashboard. In your dashboar drag a new web page obeject into the. Click the dropdown arrow in the top right of that sheet and click edit URL.
+Once you have your newly created sheet, go ahead and create a dashboard. In your dashboard drag a new web page obeject into the view. Click the dropdown arrow in the top right of that sheet and click edit URL.
 
 ![Tableau Newsfeed](docs/imgs/newsfeed.png?raw=true "Title")
 ```bash
