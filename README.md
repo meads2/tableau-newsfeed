@@ -58,5 +58,14 @@ This URL is telling your web app that you want news for whatever topic the curre
 ## 4. Show Off Your Awesome Dashboard
 There you go, you just created your own custom newsfeed for Tableau. This demo has endless possibilites, with a little bit of programming know how you can add new routes for all sorts of uses such as weather for location, tweets by user, market price from public finance data, the possibilities are endless.
 
+--Note:--
+This is a great option for a local dashboard, but the webserver only works on your local computer. To share with others you have to deploy this app on a server
+
+--Here are a few options:--
+[Digital Ocean](https://www.digitalocean.com/)
+[AWS](https://aws.amazon.com/)
+[Python Anywhere](https://www.pythonanywhere.com/)
+[Heroku](https://www.heroku.com/)
+
 ### Feedback
 If the above steps were unclear or something did not work, create an issue. This is a side project and will be maintained as best as possible. Hope you enjoyed and learned something or sparked a creative idea for your next dashboard.
