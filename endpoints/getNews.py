@@ -1,8 +1,5 @@
-from flask import Flask, render_template
 import os
 import requests as r
-import json
-
 
 
 def getArticles(topic='bitcoin', limit=5):

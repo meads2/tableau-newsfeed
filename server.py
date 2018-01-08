@@ -1,5 +1,4 @@
-from flask import Flask, request, render_template
-from flask.json import jsonify
+from flask import Flask, render_template
 import requests as r
 import os
 from endpoints.getNews import getArticles
