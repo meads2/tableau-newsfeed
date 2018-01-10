@@ -30,3 +30,6 @@ def handler(topic):
 All news articles are attributed to:
     NewsAPI.org
 '''
+
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)
