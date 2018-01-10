@@ -11,7 +11,7 @@ app = Flask(__name__)
 # Create Index Route
 @app.route('/')
 def index():
-    return 'App is working!'
+    return 'App is up and working!'
 
 # Create News Route
 @app.route('/news/<topic>')
