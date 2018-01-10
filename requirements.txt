@@ -1,5 +1,1 @@
-gunicorn
-Flask
-Jinja2
-Werkzeug
-
+python-3.5.2

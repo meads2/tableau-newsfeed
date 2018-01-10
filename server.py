@@ -7,6 +7,12 @@ from datetime import datetime
 # Create App Instance
 app = Flask(__name__)
 
+
+# Create Index Route
+@app.route('/')
+def index():
+    return 'App is working!'
+
 # Create News Route
 @app.route('/news/<topic>')
 def handler(topic):
@@ -30,6 +36,11 @@ def handler(topic):
 All news articles are attributed to:
     NewsAPI.org
 '''
+
+@app.route('/tweets')
+def tweets():
+    return 'This page will eventually get tweets!'
+
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
